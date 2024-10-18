@@ -1,0 +1,23 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>ProcesaLogin</servlet-name>
+        <servlet-class>com.example.ProcesaLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProcesaLogin</servlet-name>
+        <url-pattern>/procesaLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Deslogueo</servlet-name>
+        <servlet-class>com.example.Deslogueo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Deslogueo</servlet-name>
+        <url-pattern>/deslogueo</url-pattern>
+    </servlet-mapping>
+</web-app>
